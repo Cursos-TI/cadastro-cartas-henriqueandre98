@@ -19,50 +19,50 @@ int main(){
     printf("Carta 01 \n");
  
     printf("Digite apenas a letra inicial que represente um dos oito estados: \n");
-    scanf("%s", Cidade_carta01);        
+    scanf(" %s ", Cidade_carta01);        
 
     printf("Digite o codigo da carta (Ex: Letra inicial seguida de numero de 01 a 04): \n");
-    scanf("%s", Codigo_carta01);
+    scanf(" %s ", Codigo_carta01);
 
     printf("Digite o nome da cidade desejada: \n");
-    scanf(" %[^\n]", Nome_cidade01);
+    scanf(" %[^\n] ", Nome_cidade01);
 
     printf("Digite a populacao total da cidade: \n");
-    scanf("%d", &Populacao_carta01);
+    scanf(" %d ", &Populacao_carta01);
 
     printf("Digite a area em km2 da cidade: \n");
-    scanf("%f", &Area_km2_carta01);
+    scanf(" %f ", &Area_km2_carta01);
 
     printf("Digite o PIB total da cidade: \n");
-    scanf("%f", &PIB_carta01);
+    scanf(" %f ", &PIB_carta01);
 
     printf("Digite a quantidade de pontos turísticos da cidade: \n");
-    scanf("%d", &Pontos_turisticos01);
+    scanf(" %d ", &Pontos_turisticos01);
 
     // Carta 2:
 
     printf("Carta 02 \n");
       
     printf("Digite apenas a letra inicial que represente um dos oito estados: \n");
-    scanf("%s", Cidade_carta02);        
+    scanf(" %s ", Cidade_carta02);        
 
     printf("Digite o codigo da carta (Ex: Letra inicial seguida de numero de 01 a 04): \n");
-    scanf("%s", Codigo_carta02);
+    scanf(" %s ", Codigo_carta02);
 
     printf("Digite o nome da cidade desejada: \n");
     scanf(" %[^\n]", Nome_cidade02);
 
     printf("Digite a populacao total da cidade: \n");
-    scanf("%d", &populacao_carta02);
+    scanf(" %d ", &populacao_carta02);
 
     printf("Digite a area em km2 da cidade: \n");
-    scanf("%f", &Area_km2_carta02);
+    scanf(" %f ", &Area_km2_carta02);
 
     printf("Digite o PIB total da cidade: \n");
-    scanf("%f", &PIB_carta02);
+    scanf(" %f ", &PIB_carta02);
 
     printf("Digite a quantidade de pontos turísticos da cidade: \n");
-    scanf("%d", &Pontos_turisticos02);
+    scanf(" %d ", &Pontos_turisticos02);
     
     // Calculando a densidade populacional e Pib per capita:
 
